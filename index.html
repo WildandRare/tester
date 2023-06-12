@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="startpage.js"></script>
+    </head>
+    <body>
+        <div style="display: grid;justify-content: center;position: relative; top: 7.3vw;">
+            <div start_window onmousemove="move(event)" start>
+                <div style="width: 100%; background-color: slategrey; height: 3.23vh;border-top-left-radius: 0.93vw;border-top-right-radius: 0.93vw;position: relative;top:-1.93vh;text-align: right;">
+                    <span style="position: relative; top: 0.73vh;right: 0.33vw; vertical-align: middle;">Start</span>
+                </div>
+                <div inner>
+
+
+                    <span style="margin: 0.3vw;">Please enter a name and password for the account.</span>
+                    <br>
+                    <input nop placeholder="Name">
+                    <br>
+                    <input nop placeholder="Password" type="password">
+                    <br>
+                    <br>
+                    <button cont onclick="cont()">Enter</button>
+
+                </div>
+            </div>
+        </div>
+        <style>
+            body{
+                background-color: black;
+            }
+            * {
+                font-size: 1.3vh;
+            }
+            [start_window] {
+                width: 30.3vw;
+                height: 35.3vh;
+                background-color: whitesmoke;
+                border-radius: 0.93vw;
+                border-top-left-radius: 0;
+                border-top-right-radius: 0;
+                text-align: center;
+                position: relative;
+                left: 4.3vw;
+            }
+            [nop]{
+                width: 50.3%;
+            }
+            [cont]{
+                background-color: silver;
+                border-style: none;
+                border-radius: 1.3vw;
+            }
+        </style>
+    </body>
+</html>
